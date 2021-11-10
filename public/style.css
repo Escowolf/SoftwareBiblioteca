@@ -89,6 +89,41 @@ input {
 }
 
 .footer {
-    margin-top: 10px;
     text-align: center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+img{
+    height: 50px;
+}
+
+.title{
+    margin-left: 20%;
+}
+.content{
+    color: #ffffff;
+    background-color: #1d1e20;
+    height: auto;
+    width: 300px;
+    left: 124px;
+    top: 212px;
+    border-radius: 30px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.element{
+    margin-left: auto;
+    margin-right: auto;
+    text-size-adjust: 12px;
+}
+
+#decoration{
+    background-color: black;
+    margin-left: 50%;
+    height: fill;
+    width: fill;
+    position: relative;
 }

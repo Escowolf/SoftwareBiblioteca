@@ -3,43 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Biblioteca Dev</title>
-    <link href="style.css" rel="stylesheet">
-    <script type="text/javascript" src="/js/testData.js"></script>
-    <script>
-        function dark() {
-            var e1 = document.body;
-            e1.classList.toggle("dark-mode");
-        }
-    </script>
+    <title>Recuperar senha</title>
+    <link href="default.css" rel="stylesheet">
   </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <a href="index.html"></a><img src="logo.png" alt="Books"></img></a>
-        </div>
-        <nav>
-            <ul class="menu">
-                <li><a href="">CADASTRO</a></li>
-                <li><a href="">CATALOGAÇÃO</a></li>
-                <li><a href="">EMPRÉSTIMO</a></li>
-                <li><a href="">RENOVAÇÃO</a></li>
-                <li><a href="">RELATÓRIOS</a></li>
-                <li><a href="">AJUDA</a></li>
-                <li><a href="">SAIR</a></li>
-                <li><button id="btn" onclick="dark()">Modo<br>escuro</button></li>
-
-            </ul>
-        </nav>
-    </header>
-
-    <section>
-        <div type="content" class="content">
-            
-        </div>
-        <footer class="footer">
-            © 2021 <strong>Ezequiel Sousa</strong> - Todos os direitos reservados<br>Disciplina de Amb. Desen. Softwares
-        </footer>
-    </section>
+  <ul>
+    <li><img src="books.png"></li>
+    <li><h1>RECUPERAR SENHA</h1></li>
+  </ul>
+  
+  <p>Informe os dados abaixo, e receba em seu e-mail cadastrado as intruções para recuperar o seu acesso.</p>
+  <form action="" method="get">
+    <input type="number" name="user" id="user" placeholder="000.000.000-00"><br><br>
+    <h1>OU</h1>
+    <input type="email" name="user" id="user" placeholder="e-mail"><br><br>
+    <button class="button">ENVIAR</button>
+  </form>
   </body>
 </html>

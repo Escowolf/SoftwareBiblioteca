@@ -1,0 +1,26 @@
+{
+  "name": "augustofinal",
+  "version": "1.0.0",
+  "description": "Projeto final da disciplina de Desenvolvimento de Software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Escowolf/AugustoFinal.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "html",
+    "css",
+    "firebase"
+  ],
+  "author": "Ezequiel Sousa (escowolf)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Escowolf/AugustoFinal/issues"
+  },
+  "homepage": "https://github.com/Escowolf/AugustoFinal#readme"
+}

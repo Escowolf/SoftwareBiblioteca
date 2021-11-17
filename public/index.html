@@ -5,40 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Biblioteca Dev</title>
     <link href="style.css" rel="stylesheet">
-    <script type="text/javascript" src="/js/testData.js"></script>
-    <script>
-        function dark() {
-            var e1 = document.body;
-            e1.classList.toggle("dark-mode");
-        }
-    </script>
   </head>
-<body>
-    <header class="header">
-        <div class="logo">
-            <a href="index.html"></a><img src="logo.png" alt="Books"></img></a>
-        </div>
-        <nav>
-            <ul class="menu">
-                <li><a href="">LOGIN</a></li>
-                <li><a href="">AJUDA</a></li>
-                <li><button id="btn" onclick="dark()">Modo<br>escuro</button></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="title">        
+<body class="body">
+    <div class="title">        
         <h1>Bem-vindo à<br> BibliotecaDev!</h1>
-        <td><div type="content" class="content">
-            <p style="text-align: center;"><b>Login</b></p><br>
-            <input type="text" class="element" name="user" id="user" placeholder="Username"><br>
-            <input type="password" class="element" name="senha" id="senha" placeholder="senha">
-            <input type="checkbox" name="verify" id="verify">
-            <label for="conect">manter conectado</label><br>
-            <button>ENTRAR</button><br>
-            <a href=""><p>esqueci minha senha</p></a>
-            <p>não tem cadastro?<a href=""> comece por aqui</a></p>
+        <div type="content" class="content">
+            <p><b>Descubra um novo mundo...</b></p><br>
+            <input type="text" class="element" name="user" id="user" placeholder="e-mail"><br><br>
+            <input type="password" class="element" name="senha" id="senha" placeholder="senha"><br><br>
+            <input type="checkbox" name="verify" id="verify" style="text-align: left;">
+            <label for="conect">manter conectado</label><br><br>
+            <a href=""><button class="btn">ENTRAR</button><br></a>
+            <a href="" class="links"><p>esqueci minha senha</p></a>
+            <p class="links">não tem cadastro?<a href="" class="links"> comece por aqui</a></p>
         </div>
-</section>
+        <div id="aside">
+            <img src="books.png" alt="Books logo">
+        </div>
+    </div>
   </body>
 </html>

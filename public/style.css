@@ -1,114 +1,58 @@
-.dark-mode {
-    background-color: black;
-    color: white;
-}
 
-body,
-ul,
-li,
-p {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
+body {
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-/*
-a:hover {
-    color: #1d1e20;
-    background-color: #e9e9e97e;
-}*/
-
-
-/*estilização do header*/
-
-header {
-    color: white;
-    background-color: #1d1e20;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-
-img {
-    max-width: 150px;
-    width: auto;
-    background-color: #1d1e20;
-}
-
-.menu {
-    display: flex;
-}
-
-.menu li {
-    margin-left: 10px;
-}
-
-.menu li a {
-    display: block;
-    padding: 10px;
-}
-
-
-/*fim estilização do header*/
-
-
-.links {
+input.element{
     position: relative;
-    width: 200px;
-    height: 30px;
-    border-radius: 10px;
-    color: black!important;
+    width: 80%;
+    height: 7%;
 }
-
-input {
-    display: flex;
-    border: 1px solid transparent;
-    box-shadow: 0 2px 3px 1px rgb(64 60 67 / 16%);
-    height: 30px;
-    border-radius: 10px;
-}
-
-.aside {
-    width: 40%;
-}
-
-.footer {
-    text-align: center;
-    position:absolute;
-    bottom:0;
-    width:100%;
-}
-
-img{
-    height: 50px;
-}
-
-.title{
-    margin-left: 20%;
+.title{width: 100%; height: 100%;}
+.title h1{
+    margin-left: 18%;
 }
 .content{
-    color: #ffffff;
-    background-color: #C4C4C4;
-    height: auto;
+    position: absolute;
     width: 300px;
-    left: 124px;
-    top: 212px;
+    height: 300px;
+    left: 21%;
+    top: 25%;
+    padding-bottom: 1%;
+    background: #C4C4C4;
     border-radius: 30px;
-    padding-top: 5%;
-    padding-bottom: 5%;
     text-align: center;
     font-size: medium;
+    text-transform:lowercase;
 }
 
-.element{
-    margin-left: auto;
-    margin-right: auto;
+#aside{
+    position:absolute;
+    top:0;
+    left: 60%;
+    width:40%;
+    height:100%;
+    background:rgb(0, 0, 0);
+}
+img{
+    /* LogoTelaInicio */
+    position: relative;
+    height: auto;
+    width: 200px;
+    left:50%;
+    top: 0.78%;
+    bottom: 79.3%;
+}
+
+.btn{
+    border: 0;
+    width: 80%;
+    height: 10%;
+    color: white;
+    background: black;
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: black;
 }

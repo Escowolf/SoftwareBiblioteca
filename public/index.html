@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://www.gstatic.com/firebasejs/ui/6.0.0/firebase-ui-auth.js"></script>
     <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.0/firebase-ui-auth.css" />
-    <script src="bower_components/firebaseui/dist/firebaseui.js"></script>
     <link type="text/css" rel="stylesheet" href="bower_components/firebaseui/dist/firebaseui.css" />
-    <title>Biblioteca Dev</title>
     <link href="style.css" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/ui/6.0.0/firebase-ui-auth.js"></script>
+    <script src="bower_components/firebaseui/dist/firebaseui.js"></script>
+    <title>Biblioteca Dev</title>
   </head>
 <body class="body">
     <div class="title">        
@@ -21,11 +21,36 @@
             <label for="conect">manter conectado</label><br><br>
             <a href="initpage2.html"><button class="btn">ENTRAR</button><br></a>
             <a href="recupera.html" class="links"><p>esqueci minha senha</p></a>
-            <p class="links">não tem cadastro?<a href="" class="links"> comece por aqui</a></p>
+            <p class="links">não tem cadastro?<a href="tela_cadastro.html" class="links"> comece por aqui</a></p>
         </div>
         <div id="aside">
             <img src="books.png" alt="Books logo">
         </div>
     </div>
+
+    <script>
+      // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBZV0AXZ04x8cpQIT90eDCsTodt0b3bNKU",
+  authDomain: "bibliotecadev.firebaseapp.com",
+  databaseURL: "https://bibliotecadev-default-rtdb.firebaseio.com",
+  projectId: "bibliotecadev",
+  storageBucket: "bibliotecadev.appspot.com",
+  messagingSenderId: "761507665214",
+  appId: "1:761507665214:web:2fd7d8a9e0d4092ca9486f",
+  measurementId: "G-DNRNCPKF2B"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+</script>
   </body>
 </html>
